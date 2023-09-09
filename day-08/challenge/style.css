@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 .header-content {
-  width: 60ch;
+  max-width: 60ch;
 }
 
 .header-content h1 {
