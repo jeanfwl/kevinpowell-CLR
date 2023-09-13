@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.d-flex {
+  display: flex !important;
+}
+
 h1, h2 {
   margin: 0;
 }
@@ -54,4 +58,8 @@ h1, h2 {
 
   background-color: #38cfd9;
   color: #072a2d;
+}
+
+.hero__img {
+  align-self: flex-start;
 }
