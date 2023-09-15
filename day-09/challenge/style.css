@@ -82,8 +82,8 @@ h1, h2, h3 {
   margin-top: 4rem;
 }
 
-.main > .row {
-  gap: 1rem;
+.main__content {
+  width: 62%;
 }
 
 .main__header {
@@ -95,6 +95,7 @@ h1, h2, h3 {
   background-color: #136c72;
   color: #fff;
   text-align: center;
+  width: 32%;
 }
 
 .sidebar__card {
