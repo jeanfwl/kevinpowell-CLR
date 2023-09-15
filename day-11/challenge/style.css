@@ -36,6 +36,35 @@ h1, h2, h3 {
   justify-content: space-between;
 }
 
+.header {
+  background-color: #0b6374;
+  padding: 1em 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav__link {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav__link--button {
+  font-weight: 700;
+  color: #0b6374;
+  background-color: #fff;
+  padding: .2em 1em;
+  border-radius: 100px;
+}
+
 .hero {
   background-color: #23424a;
   color: #fff;
