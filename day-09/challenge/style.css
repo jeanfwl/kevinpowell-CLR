@@ -91,21 +91,21 @@ h1, h2, h3 {
   color: #136c72;
 }
 
-.main__aside {
+.sidebar {
   background-color: #136c72;
   color: #fff;
   text-align: center;
 }
 
-.aside__card {
+.sidebar__card {
   padding: 2em;
 }
 
-.aside__card + .aside__card {
+.sidebar__card + .sidebar__card {
   padding-top: 0;
 }
 
-.aside__card__header {
+.sidebar__header {
   font-size: 1.8rem;
   margin-top: 1rem;
 }
