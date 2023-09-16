@@ -61,6 +61,10 @@ h1, h2, h3 {
   gap: 2rem;
 }
 
+.nav__list--primary {
+  margin: 0 auto;
+}
+
 .nav__link {
   display: inline-block;
   text-transform: uppercase;
