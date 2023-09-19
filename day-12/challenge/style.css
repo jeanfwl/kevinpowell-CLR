@@ -73,5 +73,26 @@ h1, h2, h3 {
 .primary-content__text {
   color: #222c2a;
   width: 47%;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 2rem;
+}
+
+.img-section {
+  --imgsec-bg-color: #222c2a;
+  padding: 5rem 0;
+  color: #fff;
+  background-color: var(--imgsec-bg-color); 
+}
+
+.img-section__title {
+  color: #f3eed9;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.img-section__text {
+  width: 46%;
+}
+
+.img-section__image {
+  width: 48%;
 }
