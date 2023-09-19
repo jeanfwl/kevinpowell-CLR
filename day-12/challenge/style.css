@@ -4,12 +4,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  margin: 0;
 }
 
 img {
@@ -20,4 +21,32 @@ img {
   width: 80%;
   max-width: 1128px;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 38rem;
+  text-align: center;
+  background-color: #f3eed9;
+}
+
+.header__content {
+  max-width: 62%;
+  margin: 0 auto;
+}
+
+.header__text {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 1rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-family: 'Playfair Display';
+  line-height: 1;
+  color: #824936;
 }
