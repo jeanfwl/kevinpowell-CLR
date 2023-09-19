@@ -11,16 +11,27 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  line-height: 1.4;
 }
 
 img {
   max-width: 100%;
 }
 
+h1, h2, h3 {
+  color: #824936;
+  font-family: 'Playfair Display';
+}
+
 .container {
   width: 80%;
   max-width: 1128px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -46,7 +57,21 @@ img {
 
 .header__title {
   font-size: 3rem;
-  font-family: 'Playfair Display';
   line-height: 1;
-  color: #824936;
+}
+
+.primary-content {
+  padding: 4rem 0;
+}
+
+.primary-content__title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.primary-content__text {
+  color: #222c2a;
+  width: 47%;
+  /* margin-bottom: 1rem; */
 }
