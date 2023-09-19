@@ -44,7 +44,7 @@ h1, h2, h3 {
 }
 
 .header__content {
-  max-width: 62%;
+  max-width: 60ch;
   margin: 0 auto;
 }
 
