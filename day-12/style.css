@@ -153,3 +153,20 @@ h1, h2, h3 {
   font-size: 1.8rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .hero__img {
+    margin-top: 2em;
+  }
+
+  .hero__content,
+  .hero__img,
+  .main__content,
+  .sidebar {
+    width: 100%;
+  }
+}
