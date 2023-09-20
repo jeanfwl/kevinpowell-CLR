@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 'Roboto' sans-serif;
+  font-size: 18px;
+}
+
+.example {
+  width: 90%;
+  margin: 5em auto;
+  padding: 10em 0;
+  background-color: steelblue;
+}
