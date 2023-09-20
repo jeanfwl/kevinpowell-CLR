@@ -14,3 +14,15 @@ body {
   padding: 10em 0;
   background-color: steelblue;
 }
+
+@media (max-width: 600px) {
+  .example {
+    background-color: rebeccapurple;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1500px) {
+  .example {
+    background-color: bisque;
+  }
+}
