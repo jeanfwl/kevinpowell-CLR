@@ -25,6 +25,10 @@ h1, h2, h3 {
   display: flex !important;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .container {
   width: 80%;
   max-width: 960px;
@@ -77,23 +81,47 @@ h1, h2, h3 {
 }
 
 .nav__toggle {
-  display: flex;
+  display: none;
   gap: .3rem;
+  background-color: #072a2d;
+  padding: .6rem;
+  border-radius: 100px;
+}
+
+@media (max-width: 600px) {
+  .nav__toggle {
+    display: flex;
+  }
 }
 
 .hamburger {
-  width: 20px;
-  color: #000;
+  width: 15px;
   border-top: 2px solid;
+  color: #fff;
 }
 
 .hamburger::after,
 .hamburger::before {
   content: '';
   display: block;
-  width: 20px;
-  margin-top: 5px;
+  width: 15px;
+  margin-top: 3px;
   border-top: 2px solid currentColor;
+  position: relative;
+  transition: .3s;
+}
+
+.nav__toggle.active .hamburger {
+  border-top-color: transparent;
+}
+
+.nav__toggle.active .hamburger::before {
+  transform: rotate(135deg);
+}
+
+.nav__toggle.active .hamburger::after {
+  transform: rotate(-135deg);
+  top: -5px;
 }
 
 .hero {
@@ -172,7 +200,8 @@ h1, h2, h3 {
 }
 
 @media (max-width: 600px) {
-  .row {
+  .hero .row, 
+  .main .row {
     display: block;
   }
 
