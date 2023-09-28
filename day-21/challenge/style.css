@@ -51,9 +51,10 @@ ul {
   font-weight: 700;
   font-family: 'Oswald', serif;
   letter-spacing: .5px;
+  cursor: pointer;
 }
 
-/* header */
+/* Header, Navigation */
 
 .header {
   background-color: #2E323F;
@@ -139,4 +140,26 @@ large screen: include style as .btn class do
 .nav--active .hamburger::after {
   transform: rotate(-135deg);
   top: -6px;
+}
+
+/* Intro */
+.intro {
+  background-color: #3B4050;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.intro__title {
+  color: #fff;
+  font-size: clamp(3rem, 2vw, 5rem);
+  line-height: 1.2;
+}
+
+.intro__title span {
+  color: #A59678;
+}
+
+.intro__description {
+  font-size: 1.25rem;
+  color: #f1f1f1;
 }
