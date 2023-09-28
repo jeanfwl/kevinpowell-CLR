@@ -41,6 +41,18 @@ ul {
   margin: 0 auto;
 }
 
+.btn {
+  display: inline-block;
+  background-color: #A59678;
+  color: #fff;
+  border-radius: 100px;
+  text-transform: uppercase;
+  padding: .3em 1.5em;
+  font-weight: 700;
+  font-family: 'Oswald', serif;
+  letter-spacing: .5px;
+}
+
 /* header */
 
 .header {
@@ -84,6 +96,13 @@ ul {
   font-family: 'Oswald', serif;
   text-transform: uppercase;
 }
+
+/* 
+large screen: include style as .btn class do
+.nav__link--btn {
+  
+} 
+*/
 
 .nav__toggle {
   background: none;
