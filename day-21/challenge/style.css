@@ -41,6 +41,13 @@ ul {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .btn {
   display: inline-block;
   background-color: #A59678;
@@ -168,10 +175,46 @@ large screen: include style as .btn class do
 .section-title {
   font-size: 1.875rem;
   margin-bottom: .5rem;
+  line-height: 1.1;
 }
 
 .section-two {
   background-color: #f1f1f1;
   padding: 3rem 0;
   text-align: center;
+}
+
+.section-three {
+  padding: 3rem 0;
+}
+
+.section-three__content {
+  font-size: 1.325rem;
+}
+
+.section-three .section-title {
+  font-size: 2.25rem;
+}
+
+/* Sidebar  */
+.sidebar {
+  text-align: center;
+  color: #fff;
+}
+
+.sidebar .row {
+  gap: 2rem;
+}
+
+.sidebar-title {
+  color: #fff;
+  font-size: 1.875rem;
+  margin-bottom: .5rem;
+}
+
+.sidebar__content {
+  background-color: #2E323F;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
