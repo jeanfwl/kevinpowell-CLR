@@ -168,7 +168,7 @@ large screen: include style as .btn class do
 
 .intro__description {
   font-size: 1.25rem;
-  color: #f1f1f1;
+  color: #b2b5bd;
 }
 
 /* Sections */
@@ -213,8 +213,40 @@ large screen: include style as .btn class do
 }
 
 .sidebar__content {
-  background-color: #2E323F;
+  background-color: #3b404f;
   padding: 1rem;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  padding: 3rem 0;
+  background-color: #3b404f;
+  color: #b2b5bd;
+  font-size: 1rem;
+}
+
+.footer__title {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.footer__subtitle {
+  font-size: 1.325rem;
+  margin-bottom: .5rem;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.footer__link {
+  color: inherit;
+  display: inline-block;
+  padding: .5rem 0;
 }
