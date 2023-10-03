@@ -290,5 +290,49 @@ ul {
 
   .footer .row {
     flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .intro .col:first-child {
+    width: 50%;
+  }
+
+  .intro .col:last-child {
+    width: 40%;
+  }
+
+  .section-three .container>.row {
+    gap: 5rem;
+  }
+
+  .section-three .container>.row>.col:first-child {
+    width: 60%;
+  }
+
+  .section-three .container>.row>.col:last-child {
+    width: 30%;
+  }
+
+  .sidebar .row {
+    flex-direction: column;
+  }
+
+  .sidebar .row {
+    flex-direction: column;
+  }
+
+  .footer .col {
+    flex: 1;
+  }
+
+  .footer .col:first-child {
+    flex-grow: 2;
   }
 }
